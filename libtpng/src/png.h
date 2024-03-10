@@ -19,7 +19,7 @@
  *     Cosmin Truta
  *   See also "Contributing Authors", below.
  */
-   
+
 /*
  * COPYRIGHT NOTICE, DISCLAIMER, and LICENSE
  * =========================================
@@ -292,7 +292,7 @@
  * development version.
  */
 #define PNG_LIBPNG_VER_BUILD  0
-
+ 
 /* Release Status */
 #define PNG_LIBPNG_BUILD_ALPHA    1
 #define PNG_LIBPNG_BUILD_BETA     2
@@ -307,9 +307,9 @@
                                        PNG_LIBPNG_BUILD_SPECIAL */
 #define PNG_LIBPNG_BUILD_SPECIAL 32 /* Cannot be OR'ed with
                                        PNG_LIBPNG_BUILD_PRIVATE */
-
+ 
 #define PNG_LIBPNG_BUILD_BASE_TYPE PNG_LIBPNG_BUILD_STABLE
-
+ 
 /* Careful here.  At one time, Guy wanted to use 082, but that
  * would be octal.  We must not include leading zeros.
  * Versions 0.7 through 1.0.0 were in the range 0 to 100 here
