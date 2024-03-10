@@ -310,6 +310,9 @@
 #define PNG_EXPORT(ordinal, type, name, args) \
    PNG_EXPORTA(ordinal, type, name, args, PNG_EMPTY)
 
+ 
+
+
 /* Use PNG_REMOVED to comment out a removed interface. */
 #ifndef PNG_REMOVED
 #  define PNG_REMOVED(ordinal, type, name, args, attributes)

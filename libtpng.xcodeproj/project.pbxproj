@@ -14,9 +14,9 @@
 		43744E2D2B9DA368005D3856 /* pngstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E142B9DA368005D3856 /* pngstruct.h */; };
 		43744E2E2B9DA368005D3856 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E152B9DA368005D3856 /* pngtrans.c */; };
 		43744E302B9DA368005D3856 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E172B9DA368005D3856 /* pngwrite.c */; };
-		43744E312B9DA368005D3856 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E182B9DA368005D3856 /* png.h */; };
+		43744E312B9DA368005D3856 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E182B9DA368005D3856 /* png.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744E322B9DA368005D3856 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E192B9DA368005D3856 /* pngwutil.c */; };
-		43744E352B9DA368005D3856 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E1C2B9DA368005D3856 /* pngconf.h */; };
+		43744E352B9DA368005D3856 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E1C2B9DA368005D3856 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744E362B9DA368005D3856 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E1D2B9DA368005D3856 /* pngpread.c */; };
 		43744E372B9DA368005D3856 /* pngdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E1E2B9DA368005D3856 /* pngdebug.h */; };
 		43744E382B9DA368005D3856 /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E1F2B9DA368005D3856 /* pngread.c */; };
@@ -30,7 +30,7 @@
 		43744E402B9DA368005D3856 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E282B9DA368005D3856 /* pngrutil.c */; };
 		43744E412B9DA368005D3856 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E292B9DA368005D3856 /* pngset.c */; };
 		43744E432B9DA520005D3856 /* pngpriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E422B9DA520005D3856 /* pngpriv.h */; };
-		43744E452B9DAC60005D3856 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E442B9DAC60005D3856 /* pnglibconf.h */; };
+		43744E452B9DAC60005D3856 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744E442B9DAC60005D3856 /* pnglibconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43744E472B9DAEB3005D3856 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E462B9DAEB3005D3856 /* pngerror.c */; };
 		43744E492B9DAF2B005D3856 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E482B9DAF2B005D3856 /* pngrtran.c */; };
 		43744E4B2B9DAF50005D3856 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 43744E4A2B9DAF50005D3856 /* pngwtran.c */; };
@@ -151,11 +151,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43744E372B9DA368005D3856 /* pngdebug.h in Headers */,
-				43744E312B9DA368005D3856 /* png.h in Headers */,
-				43744E2A2B9DA368005D3856 /* pnginfo.h in Headers */,
-				43744E352B9DA368005D3856 /* pngconf.h in Headers */,
 				43744E452B9DAC60005D3856 /* pnglibconf.h in Headers */,
+				43744E352B9DA368005D3856 /* pngconf.h in Headers */,
+				43744E312B9DA368005D3856 /* png.h in Headers */,
+				43744E372B9DA368005D3856 /* pngdebug.h in Headers */,
+				43744E2A2B9DA368005D3856 /* pnginfo.h in Headers */,
 				43744E0A2B9DA33F005D3856 /* libtpng.h in Headers */,
 				43744E432B9DA520005D3856 /* pngpriv.h in Headers */,
 				43744E2D2B9DA368005D3856 /* pngstruct.h in Headers */,
